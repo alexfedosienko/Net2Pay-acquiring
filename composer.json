@@ -1,0 +1,26 @@
+{
+    "name": "alexfedosienko/Net2Pay-acquiring",
+    "type": "library",
+    "description": "Simple Net2Pay acquiring",
+    "keywords": [
+        "netpay",
+        "net2pay",
+        "acquiring"
+    ],
+    "homepage": "https://github.com/alexfedosienko/Net2Pay-acquiring",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Fedosienko", 
+            "email": "alexfedosienko@gmail.com",
+            "homepage": "https://github.com/alexfedosienko/",
+            "role": "Developer"
+        }
+    ],    
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": { "alexfedosienko\\": "src" }
+    }
+}
